@@ -11,12 +11,15 @@
 - [Dependencies and Installation](#dependencies-and-installation)
 - [Codes Demos](#codes-demos)
 - [Quick Inference](#quick-inference)
-- [Image Quality Assessment](image-quality-assessment)
-- [Inference Dataset](inference-dataset)
+- [Image Quality Assessment](#image-quality-assessment)
+- [Inference Dataset](#inference-dataset)
 - [Citation](#citation)
 - [Acknowledgement](#acknowledgement)
 
+https://github.com/NegVSR/NegVSR/assets/132546798/3dbcf4aa-43c8-4357-b0fb-cc9a1f232a7f
+
 ## Introduction
+
 We propose a Negatives augmentation strategy for generalized noise modeling in Video Super-Resolution (NegVSR) task. Specifically, we first propose sequential noise generation toward real-world data to extract practical noise sequences. Then, the degeneration domain is widely expanded by negative augmentation to build up various yet challenging real-world noise sets. We further propose the augmented negative guidance loss to learn robust features among augmented negatives effectively. Extensive experiments on real-world datasets (e.g., VideoLQ and FLIR) show that our method outperforms state-of-the-art methods with clear margins.
 
 <img src="./datas/pipeline.png" width=50%>
@@ -25,8 +28,6 @@ We propose a Negatives augmentation strategy for generalized noise modeling in V
 <img src="./datas/overview.png" width=100%>
 
 ### Visual
-
-https://github.com/NegVSR/NegVSR/assets/132546798/3dbcf4aa-43c8-4357-b0fb-cc9a1f232a7f
 
 <img src="./datas/visual.png" width=100%>
 
@@ -133,10 +134,10 @@ We also provide code for video to image conversion. You can find in [video2img.p
 **Selecting samples for evaluation**
 
 ```bash
-# For flir
+# For FLIR
 python codes/flir_sub.py
 # For VideoLQ
-python codes/videolq_sub.py
+python codes/videolq_sub.py 
 ```
 
 **no-reference metrics calculation**
