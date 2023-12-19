@@ -9,9 +9,9 @@
   - [Overview](#overview)
   - [Visual](#visual)
 - [Dependencies and Installation](#dependencies-and-installation)
-- [Codes Demos](#Codes Demos)
+- [Codes Demos](#Codes-Demos)
 - [Quick Inference](#quick-inference)
-- [Image Quality Assessment](Image Quality Assessment)
+- [Image Quality Assessment](Image-Quality-Assessment)
 - [Inference Dataset](Inference Dataset)
 - [Citation](#citation)
 - [Acknowledgement](#acknowledgement)
@@ -71,8 +71,6 @@ Download the pre-trained NegVSR models [[Baidu Drive](https://pan.baidu.com/s/1c
 - `pretrain_wNegVSR_100000itr_finetune_woNegVSR_150000itr_FLIR.pth`: The sharper model for FLIR (Table 3).
 - `pretrain_wNegVSR_100000itr_finetune_wNegVSR_150000itr.pth`: Both pretrain and finetune use our method (Better visualization).
 
-NegVSR supports both frames.
-
 **Inference on Frames**
 
 Replace the basicvsr_net.py in mmedit ('[Your anaconda root]/envs/[Your envs name]/lib/python3.x/site-packages/mmedit/models/backbones/sr_backbones'/basicvsr_net.py) with the  [basicvsr_net.py](codes/basicvsr_net.py) in our repository.
@@ -82,18 +80,17 @@ python codes/inference_realbasicvsr2.py
 ```
 ```console
 Usage:
-  --config        	   	The test config file path. Default: 'configs/realbasicvsr_x4.py'
-  --checkpoint  	   	The pre-trained or customly trained model path. Default: 'weights/xxx.pth' 
+  --config				The test config file path. Default: 'configs/realbasicvsr_x4.py'
+  --checkpoint			The pre-trained or customly trained model path. Default: 'weights/xxx.pth' 
   --input_dir	       	The directory of the input video. Default: 'VideoLQ'
-  							VideoLQ:
-  								000:
-  									00000000.png
-  									00000001.png
-  									...
-  									00000099.png
-  								001:
-  								002:
-  								...
+                          VideoLQ:
+                          	000:
+                              00000000.png
+                              00000001.png
+                              ...
+                              00000099.png
+                            001:
+                            002:
   --output_dir        	Output root.
   --max_seq_len         The maximum sequence length to be processed. Default: 30
   --is_save_as_png      Whether to save as png. Default: True
@@ -111,15 +108,14 @@ python codes/img2video.py
 ```console
 Usage:
   --inputPath           The output root of 'inference_realbasicvsr2.py'
-    							VideoLQ:
-                                    000:
-                                        00000000.png
-                                        00000001.png
-                                        ...
-                                        00000099.png
-                                    001:
-                                    002:
-                                    ...
+                          VideoLQ:
+                          	000:
+                              00000000.png
+                              00000001.png
+                              ...
+                              00000099.png
+                          	001:
+                          	002:
   --savePath			The output video root
   								savePath:
   									000.mp4
