@@ -140,7 +140,7 @@ python codes/flir_sub.py
 python codes/videolq_sub.py 
 ```
 
-**no-reference metrics calculation**
+**No-reference metrics calculation**
 
 Recommended for using [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch). Our paper results can be found in [Results](/results).
 
