@@ -9,8 +9,8 @@
   - [Overview](#overview)
   - [Visual](#visual)
 - [Dependencies and Installation](#dependencies-and-installation)
-- [Codes Demos](#codes-demos)
 - [Quick Inference](#quick-inference)
+- [Codes Demos](#codes-demos)
 - [Image Quality Assessment](#image-quality-assessment)
 - [Inference Dataset](#inference-dataset)
 - [Citation](#citation)
@@ -48,24 +48,6 @@ We propose a Negatives augmentation strategy for generalized noise modeling in V
 2. Install
 
     Following [RealBasicVSR](https://github.com/ckkelvinchan/RealBasicVSR)
-
-## Codes Demos
-
-**Collect noiseSequence**
-
-```bash
-# Run collect_noise_sequence_supplement.py directly
-python codes/collect_noise_sequence/collect_noise_sequence_supplement.py
-```
-
-**Negative augmentation**
-
-```bash
-# Run rot_p.py directly
-python codes/rot_PM/rot_p.py
-```
-
-We have migrated the negative augmentation code to [basicvsr_net.py](codes/basicvsr_net.py).
 
 ## Quick Inference
 
@@ -128,6 +110,24 @@ Usage:
   --fps                 The fps of the (possible) saved videos. 
 ```
 We also provide code for video to image conversion. You can find in [video2img.py](codes/video2img.py)
+
+## Codes Demos
+
+**Collect noiseSequence**
+
+```bash
+# Run collect_noise_sequence_supplement.py directly
+python codes/collect_noise_sequence/collect_noise_sequence_supplement.py
+```
+
+**Negative augmentation**
+
+```bash
+# Run rot_p.py directly
+python codes/rot_PM/rot_p.py
+```
+
+We have migrated the negative augmentation code to [basicvsr_net.py](codes/basicvsr_net.py).
 
 ## **Image Quality Assessment**
 
