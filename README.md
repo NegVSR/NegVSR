@@ -9,10 +9,10 @@
   - [Overview](#overview)
   - [Visual](#visual)
 - [Dependencies and Installation](#dependencies-and-installation)
-- [Codes Demos](#Codes-Demos)
+- [Codes Demos](#codes-demos)
 - [Quick Inference](#quick-inference)
-- [Image Quality Assessment](Image-Quality-Assessment)
-- [Inference Dataset](Inference-Dataset)
+- [Image Quality Assessment](image-quality-assessment)
+- [Inference Dataset](inference-dataset)
 - [Citation](#citation)
 - [Acknowledgement](#acknowledgement)
 
