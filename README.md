@@ -25,6 +25,9 @@ We propose a Negatives augmentation strategy for generalized noise modeling in V
 <img src="./datas/overview.png" width=100%>
 
 ### Visual
+
+https://github.com/NegVSR/NegVSR/assets/132546798/3dbcf4aa-43c8-4357-b0fb-cc9a1f232a7f
+
 <img src="./datas/visual.png" width=100%>
 
 ## Dependencies and Installation
