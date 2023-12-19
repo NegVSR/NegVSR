@@ -12,7 +12,7 @@
 - [Codes Demos](#Codes-Demos)
 - [Quick Inference](#quick-inference)
 - [Image Quality Assessment](Image-Quality-Assessment)
-- [Inference Dataset](Inference Dataset)
+- [Inference Dataset](Inference-Dataset)
 - [Citation](#citation)
 - [Acknowledgement](#acknowledgement)
 
@@ -80,11 +80,11 @@ python codes/inference_realbasicvsr2.py
 ```
 ```console
 Usage:
-  --config				The test config file path. Default: 'configs/realbasicvsr_x4.py'
-  --checkpoint			The pre-trained or customly trained model path. Default: 'weights/xxx.pth' 
+  --config              The test config file path. Default: 'configs/realbasicvsr_x4.py'
+  --checkpoint          The pre-trained or customly trained model path. Default: 'weights/xxx.pth' 
   --input_dir	       	The directory of the input video. Default: 'VideoLQ'
                           VideoLQ:
-                          	000:
+                            000:
                               00000000.png
                               00000001.png
                               ...
@@ -94,7 +94,7 @@ Usage:
   --output_dir        	Output root.
   --max_seq_len         The maximum sequence length to be processed. Default: 30
   --is_save_as_png      Whether to save as png. Default: True
-  -fps                 	The fps of the (possible) saved videos. Default: 25
+  --fps                 The fps of the (possible) saved videos. Default: 25
 ```
 After run the above command, you will get the SR frames.
 
@@ -109,19 +109,19 @@ python codes/img2video.py
 Usage:
   --inputPath           The output root of 'inference_realbasicvsr2.py'
                           VideoLQ:
-                          	000:
+                            000:
                               00000000.png
                               00000001.png
                               ...
                               00000099.png
-                          	001:
-                          	002:
-  --savePath			The output video root
-  								savePath:
-  									000.mp4
-  									001.mp4
-  									...
-  --fps       			The fps of the (possible) saved videos. 
+                            001:
+                            002:
+  --savePath            The output video root
+                          savePath:
+                            000.mp4
+                            001.mp4
+                            ...
+  --fps                 The fps of the (possible) saved videos. 
 ```
 We also provide code for video to image conversion. You can find in [video2img.py](codes/video2img.py)
 
