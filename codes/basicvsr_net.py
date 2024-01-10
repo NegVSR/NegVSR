@@ -14,12 +14,8 @@ from mmedit.models.common import (PixelShufflePack, ResidualBlockNoBN,
 from mmedit.models.registry import BACKBONES
 from mmedit.utils import get_root_logger
 
-from mmedit.models.backbones.utils import build_norm_layer
-from mmedit.core import tensor2img
 import cv2
 import numpy as np
-from mmedit.models.backbones.utils import edgeSR_TM
-from mmedit.models.backbones.utils import minfliter
 import random
 
 import matplotlib.pyplot as plt
