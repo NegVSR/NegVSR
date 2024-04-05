@@ -151,11 +151,14 @@ Recommended for using [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch). O
 ##  Citation
 If you find this project useful for your research, please consider citing our paper. :smiley:
 ```bibtex
-@article{song2023negvsr,
-  title={NegVSR: Augmenting Negatives for Generalized Noise Modeling in Real-World Video Super-Resolution},
-  author={Song, Yexing and Wang, Meilin and Xian, Xiaoyu and Yang, Zhijing and Fan, Yuming and Shi, Yukai},
-  journal={arXiv preprint arXiv:2305.14669},
-  year={2023}
+@inproceedings{song2024negvsr,
+  title={Negvsr: Augmenting negatives for generalized noise modeling in real-world video super-resolution},
+  author={Song, Yexing and Wang, Meilin and Yang, Zhijing and Xian, Xiaoyu and Shi, Yukai},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={9},
+  pages={10705--10713},
+  year={2024}
 }
 ```
 ## Acknowledgement
